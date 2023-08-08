@@ -86,7 +86,7 @@ int mian()
 #define do_forever for(;;)
 int main()
 {
-      do_forever(这是定义for循环，一直会循环)
+      do_forever(这是定义for循环，但是循环的是return 所以直接跳出循环)
       return 0;
 }
 
